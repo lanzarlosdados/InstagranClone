@@ -14,7 +14,6 @@ struct IconButton: View {
     var body: some View {
         Button(action: action) {
             Image(imageName)
-                .resizable()
                 .renderingMode(.template)
                 .foregroundStyle(Color("primary"))
         }
