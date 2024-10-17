@@ -21,7 +21,7 @@
 		061C41CF2CC1BF2900917D55 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41CE2CC1BF2800917D55 /* LineView.swift */; };
 		061C41D32CC1C7E100917D55 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D22CC1C7E000917D55 /* PostView.swift */; };
 		061C41D52CC1CBCB00917D55 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D42CC1CBCB00917D55 /* PostHeader.swift */; };
-		061C41D72CC1CD4400917D55 /* LikeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D62CC1CD4400917D55 /* LikeSection.swift */; };
+		061C41D72CC1CD4400917D55 /* ActionsIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D62CC1CD4400917D55 /* ActionsIcons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 		061C41CE2CC1BF2800917D55 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 		061C41D22CC1C7E000917D55 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		061C41D42CC1CBCB00917D55 /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
-		061C41D62CC1CD4400917D55 /* LikeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeSection.swift; sourceTree = "<group>"; };
+		061C41D62CC1CD4400917D55 /* ActionsIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsIcons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 			children = (
 				061C41D22CC1C7E000917D55 /* PostView.swift */,
 				061C41D42CC1CBCB00917D55 /* PostHeader.swift */,
-				061C41D62CC1CD4400917D55 /* LikeSection.swift */,
+				061C41D62CC1CD4400917D55 /* ActionsIcons.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 				061C41CF2CC1BF2900917D55 /* LineView.swift in Sources */,
 				061C41AF2CC188E400917D55 /* InstagranCloneApp.swift in Sources */,
 				061C41D32CC1C7E100917D55 /* PostView.swift in Sources */,
-				061C41D72CC1CD4400917D55 /* LikeSection.swift in Sources */,
+				061C41D72CC1CD4400917D55 /* ActionsIcons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LikeSection: View {
+struct ActionsIcons: View {
     var body: some View {
         HStack(spacing: 17) {
             IconButton(imageName: "like", action: {})

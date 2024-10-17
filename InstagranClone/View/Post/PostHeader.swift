@@ -18,7 +18,7 @@ struct PostHeader: View {
                     .scaledToFill()
                     .frame(width: 32, height: 32)
                     .clipShape(Circle())
-                VStack {
+                VStack(alignment: .leading) {
                     HStack {
                         Text(userPost.username)
                             .font(.system(size: 12, weight: .semibold))

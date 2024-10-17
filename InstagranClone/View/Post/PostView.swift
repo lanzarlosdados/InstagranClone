@@ -14,9 +14,10 @@ struct PostView: View {
             PostHeader(userPost: post.user)
             Image(post.photo)
                 .resizable()
-                .scaledToFill()
-                .frame(width: .infinity, height: 375)
-            LikeSection()
+                .frame(height: UIScreen.main.bounds.width)
+                .frame(maxWidth: .infinity)
+                .aspectRatio(contentMode: .fill)
+            ActionsIcons()
         }
     }
 }

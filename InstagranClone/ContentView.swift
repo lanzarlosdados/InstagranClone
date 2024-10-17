@@ -19,7 +19,9 @@ struct ContentView: View {
                         StoryList(storyList: viewModel.storyList)
                         LineView()
                         
-                        
+                        ForEach(viewModel.timelineList) { post in
+                            PostView(post: post)
+                        }                 
                     }
                     .toolbar {
                         InstagramToolbar(
