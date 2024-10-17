@@ -12,6 +12,7 @@
 		061C41B32CC188E600917D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061C41B22CC188E600917D55 /* Assets.xcassets */; };
 		061C41B62CC188E600917D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061C41B52CC188E600917D55 /* Preview Assets.xcassets */; };
 		061C41BE2CC199DF00917D55 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41BD2CC199DF00917D55 /* UserModel.swift */; };
+		061C41C12CC19BE100917D55 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41C02CC19BE100917D55 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		061C41B22CC188E600917D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061C41B52CC188E600917D55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		061C41BD2CC199DF00917D55 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		061C41C02CC19BE100917D55 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		061C41AD2CC188E400917D55 /* InstagranClone */ = {
 			isa = PBXGroup;
 			children = (
+				061C41BF2CC19BD000917D55 /* ViewModel */,
 				061C41BC2CC199D300917D55 /* Model */,
 				061C41AE2CC188E400917D55 /* InstagranCloneApp.swift */,
 				061C41B02CC188E400917D55 /* ContentView.swift */,
@@ -76,6 +79,14 @@
 				061C41BD2CC199DF00917D55 /* UserModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		061C41BF2CC19BD000917D55 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				061C41C02CC19BE100917D55 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				061C41B12CC188E400917D55 /* ContentView.swift in Sources */,
 				061C41BE2CC199DF00917D55 /* UserModel.swift in Sources */,
+				061C41C12CC19BE100917D55 /* ViewModel.swift in Sources */,
 				061C41AF2CC188E400917D55 /* InstagranCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
