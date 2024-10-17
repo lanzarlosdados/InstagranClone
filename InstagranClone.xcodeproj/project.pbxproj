@@ -17,6 +17,8 @@
 		061C41C62CC1A5DE00917D55 /* InstagramToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */; };
 		061C41C82CC1A8D300917D55 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41C72CC1A8D300917D55 /* StoryView.swift */; };
 		061C41CB2CC1B09200917D55 /* LiveTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41CA2CC1B09200917D55 /* LiveTag.swift */; };
+		061C41CD2CC1BE4800917D55 /* StoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41CC2CC1BE4800917D55 /* StoryList.swift */; };
+		061C41CF2CC1BF2900917D55 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41CE2CC1BF2800917D55 /* LineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramToolbar.swift; sourceTree = "<group>"; };
 		061C41C72CC1A8D300917D55 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		061C41CA2CC1B09200917D55 /* LiveTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTag.swift; sourceTree = "<group>"; };
+		061C41CC2CC1BE4800917D55 /* StoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryList.swift; sourceTree = "<group>"; };
+		061C41CE2CC1BF2800917D55 /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				061C41C32CC1A33300917D55 /* IconButton.swift */,
 				061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */,
 				061C41CA2CC1B09200917D55 /* LiveTag.swift */,
+				061C41CE2CC1BF2800917D55 /* LineView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				061C41C72CC1A8D300917D55 /* StoryView.swift */,
+				061C41CC2CC1BE4800917D55 /* StoryList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,10 +196,12 @@
 				061C41B12CC188E400917D55 /* ContentView.swift in Sources */,
 				061C41C82CC1A8D300917D55 /* StoryView.swift in Sources */,
 				061C41BE2CC199DF00917D55 /* UserModel.swift in Sources */,
+				061C41CD2CC1BE4800917D55 /* StoryList.swift in Sources */,
 				061C41C12CC19BE100917D55 /* ViewModel.swift in Sources */,
 				061C41CB2CC1B09200917D55 /* LiveTag.swift in Sources */,
 				061C41C42CC1A33300917D55 /* IconButton.swift in Sources */,
 				061C41C62CC1A5DE00917D55 /* InstagramToolbar.swift in Sources */,
+				061C41CF2CC1BF2900917D55 /* LineView.swift in Sources */,
 				061C41AF2CC188E400917D55 /* InstagranCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

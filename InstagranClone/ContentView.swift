@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    private var viewModel = ViewModel()
+    
     var body: some View {
         NavigationStack {
-            ScrollView {
-                
-            }
-            .toolbar {
-                InstagramToolbar(
-                    cameraAction: { print("Cámara presionada") },
-                    igtvAction: { print("IGTV presionado") },
-                    messengerAction: { print("Messenger presionado") }
-                )
+            VStack(spacing: 0) {
+                LineView()
+                ScrollView {
+                    VStack {
+                        StoryList(storyList: viewModel.storyList)
+                        LineView()
+                        
+                        
+                    }
+                    .toolbar {
+                        InstagramToolbar(
+                            cameraAction: { print("Cámara presionada") },
+                            igtvAction: { print("IGTV presionado") },
+                            messengerAction: { print("Messenger presionado") }
+                        )
+                    }
+                }.navigationBarTitleDisplayMode(.inline)
             }
         }
     }
