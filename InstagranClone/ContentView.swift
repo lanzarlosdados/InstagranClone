@@ -9,14 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView {
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Hello, mundo!")
+        NavigationStack {
+            ScrollView {
+                
             }
-            .padding()
+            .toolbar {
+                InstagramToolbar(
+                    cameraAction: { print("Cámara presionada") },
+                    igtvAction: { print("IGTV presionado") },
+                    messengerAction: { print("Messenger presionado") }
+                )
+            }
         }
     }
 }

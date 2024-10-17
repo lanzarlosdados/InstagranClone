@@ -13,6 +13,8 @@
 		061C41B62CC188E600917D55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061C41B52CC188E600917D55 /* Preview Assets.xcassets */; };
 		061C41BE2CC199DF00917D55 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41BD2CC199DF00917D55 /* UserModel.swift */; };
 		061C41C12CC19BE100917D55 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41C02CC19BE100917D55 /* ViewModel.swift */; };
+		061C41C42CC1A33300917D55 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41C32CC1A33300917D55 /* IconButton.swift */; };
+		061C41C62CC1A5DE00917D55 /* InstagramToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		061C41B52CC188E600917D55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		061C41BD2CC199DF00917D55 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		061C41C02CC19BE100917D55 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		061C41C32CC1A33300917D55 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramToolbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		061C41AD2CC188E400917D55 /* InstagranClone */ = {
 			isa = PBXGroup;
 			children = (
+				061C41C22CC1A2FD00917D55 /* Components */,
 				061C41BF2CC19BD000917D55 /* ViewModel */,
 				061C41BC2CC199D300917D55 /* Model */,
 				061C41AE2CC188E400917D55 /* InstagranCloneApp.swift */,
@@ -87,6 +92,15 @@
 				061C41C02CC19BE100917D55 /* ViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		061C41C22CC1A2FD00917D55 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				061C41C32CC1A33300917D55 /* IconButton.swift */,
+				061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +176,8 @@
 				061C41B12CC188E400917D55 /* ContentView.swift in Sources */,
 				061C41BE2CC199DF00917D55 /* UserModel.swift in Sources */,
 				061C41C12CC19BE100917D55 /* ViewModel.swift in Sources */,
+				061C41C42CC1A33300917D55 /* IconButton.swift in Sources */,
+				061C41C62CC1A5DE00917D55 /* InstagramToolbar.swift in Sources */,
 				061C41AF2CC188E400917D55 /* InstagranCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
