@@ -19,7 +19,7 @@ struct PostView: View {
                 .aspectRatio(contentMode: .fill)
             ActionsIcons()
             LikeSection()
-            
+            CommentSection(userPost: post.user)
         }
     }
 }
