@@ -18,10 +18,7 @@ struct ContentView: View {
                     VStack {
                         StoryList(storyList: viewModel.storyList)
                         LineView()
-                        
-                        ForEach(viewModel.timelineList) { post in
-                            PostView(post: post)
-                        }                 
+                        PostList(timelineList: viewModel.timelineList)                
                     }
                     .toolbar {
                         InstagramToolbar(

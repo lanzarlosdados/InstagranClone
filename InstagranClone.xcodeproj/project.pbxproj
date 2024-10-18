@@ -24,6 +24,7 @@
 		061C41D72CC1CD4400917D55 /* ActionsIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D62CC1CD4400917D55 /* ActionsIcons.swift */; };
 		061C41D92CC2DF5100917D55 /* LikeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D82CC2DF5100917D55 /* LikeSection.swift */; };
 		061C41DB2CC2E55200917D55 /* CommentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41DA2CC2E55200917D55 /* CommentSection.swift */; };
+		061C41DD2CC2E7D300917D55 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41DC2CC2E7D300917D55 /* PostList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		061C41D62CC1CD4400917D55 /* ActionsIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsIcons.swift; sourceTree = "<group>"; };
 		061C41D82CC2DF5100917D55 /* LikeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeSection.swift; sourceTree = "<group>"; };
 		061C41DA2CC2E55200917D55 /* CommentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSection.swift; sourceTree = "<group>"; };
+		061C41DC2CC2E7D300917D55 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				061C41D62CC1CD4400917D55 /* ActionsIcons.swift */,
 				061C41D82CC2DF5100917D55 /* LikeSection.swift */,
 				061C41DA2CC2E55200917D55 /* CommentSection.swift */,
+				061C41DC2CC2E7D300917D55 /* PostList.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				061C41C42CC1A33300917D55 /* IconButton.swift in Sources */,
 				061C41C62CC1A5DE00917D55 /* InstagramToolbar.swift in Sources */,
 				061C41CF2CC1BF2900917D55 /* LineView.swift in Sources */,
+				061C41DD2CC2E7D300917D55 /* PostList.swift in Sources */,
 				061C41AF2CC188E400917D55 /* InstagranCloneApp.swift in Sources */,
 				061C41D32CC1C7E100917D55 /* PostView.swift in Sources */,
 				061C41D72CC1CD4400917D55 /* ActionsIcons.swift in Sources */,

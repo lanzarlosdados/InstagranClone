@@ -21,6 +21,7 @@ struct PostView: View {
             LikeSection()
             CommentSection(userPost: post.user)
         }
+        .padding(.top, 8)
     }
 }
 
