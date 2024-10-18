@@ -25,6 +25,7 @@
 		061C41D92CC2DF5100917D55 /* LikeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D82CC2DF5100917D55 /* LikeSection.swift */; };
 		061C41DB2CC2E55200917D55 /* CommentSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41DA2CC2E55200917D55 /* CommentSection.swift */; };
 		061C41DD2CC2E7D300917D55 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41DC2CC2E7D300917D55 /* PostList.swift */; };
+		061C41E02CC2EBE300917D55 /* TabViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41DF2CC2EBE300917D55 /* TabViewCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		061C41D82CC2DF5100917D55 /* LikeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeSection.swift; sourceTree = "<group>"; };
 		061C41DA2CC2E55200917D55 /* CommentSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentSection.swift; sourceTree = "<group>"; };
 		061C41DC2CC2E7D300917D55 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		061C41DF2CC2EBE300917D55 /* TabViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				061C41C52CC1A5DE00917D55 /* InstagramToolbar.swift */,
 				061C41CA2CC1B09200917D55 /* LiveTag.swift */,
 				061C41CE2CC1BF2800917D55 /* LineView.swift */,
+				061C41DF2CC2EBE300917D55 /* TabViewCustom.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				061C41AF2CC188E400917D55 /* InstagranCloneApp.swift in Sources */,
 				061C41D32CC1C7E100917D55 /* PostView.swift in Sources */,
 				061C41D72CC1CD4400917D55 /* ActionsIcons.swift in Sources */,
+				061C41E02CC2EBE300917D55 /* TabViewCustom.swift in Sources */,
 				061C41DB2CC2E55200917D55 /* CommentSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
