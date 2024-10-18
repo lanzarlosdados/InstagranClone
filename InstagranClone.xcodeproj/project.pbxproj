@@ -22,6 +22,7 @@
 		061C41D32CC1C7E100917D55 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D22CC1C7E000917D55 /* PostView.swift */; };
 		061C41D52CC1CBCB00917D55 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D42CC1CBCB00917D55 /* PostHeader.swift */; };
 		061C41D72CC1CD4400917D55 /* ActionsIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D62CC1CD4400917D55 /* ActionsIcons.swift */; };
+		061C41D92CC2DF5100917D55 /* LikeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C41D82CC2DF5100917D55 /* LikeSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		061C41D22CC1C7E000917D55 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		061C41D42CC1CBCB00917D55 /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
 		061C41D62CC1CD4400917D55 /* ActionsIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsIcons.swift; sourceTree = "<group>"; };
+		061C41D82CC2DF5100917D55 /* LikeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				061C41D22CC1C7E000917D55 /* PostView.swift */,
 				061C41D42CC1CBCB00917D55 /* PostHeader.swift */,
 				061C41D62CC1CD4400917D55 /* ActionsIcons.swift */,
+				061C41D82CC2DF5100917D55 /* LikeSection.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				061C41BE2CC199DF00917D55 /* UserModel.swift in Sources */,
 				061C41CD2CC1BE4800917D55 /* StoryList.swift in Sources */,
 				061C41C12CC19BE100917D55 /* ViewModel.swift in Sources */,
+				061C41D92CC2DF5100917D55 /* LikeSection.swift in Sources */,
 				061C41CB2CC1B09200917D55 /* LiveTag.swift in Sources */,
 				061C41C42CC1A33300917D55 /* IconButton.swift in Sources */,
 				061C41C62CC1A5DE00917D55 /* InstagramToolbar.swift in Sources */,

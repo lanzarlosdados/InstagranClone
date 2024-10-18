@@ -18,6 +18,8 @@ struct PostView: View {
                 .frame(maxWidth: .infinity)
                 .aspectRatio(contentMode: .fill)
             ActionsIcons()
+            LikeSection()
+            
         }
     }
 }
